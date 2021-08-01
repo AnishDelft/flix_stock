@@ -10,6 +10,10 @@
 
 ## Problem Statement
 
+The problem is a multi-class, multi-label classification problem
+
 ## Solution Formulation
 
-## Metric Graphs
+The solution is formulated as a transfer learning problem solved using a Resnet-50 model serving as the backbone network. On top of it, a three-pronged network has been developed which predicts the 3 labels using a single model.
+
+
